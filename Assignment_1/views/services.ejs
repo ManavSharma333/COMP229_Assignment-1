@@ -1,21 +1,21 @@
-<%- include header %>
+<% include partials/header.ejs %>
 
-    <%- include main_nav %>
+    <% include partials/main_nav.ejs %>
 
         <% if (title=='Mobile Apps' ) { %>
 
-            <%- include mobileApps %>
+            <% include partials/mobileApps.ejs %>
 
                 <% } else if (title=='Web Development' ){%>
 
-                    <%- include webDevelopment %>
+                    <% include partials/webDevelopment.ejs %>
 
                         <% } else if (title=='Technical Support' ) { %>
 
-                            <%- include technicalsupport %>
+                            <% include partials/technicalsupport.ejs %>
 
                                 <% } %>
 
-                                    <%- include bottom_nav %><br>
+                                    <% include partials/bottom_nav.ejs %><br>
 
-                                        <%- include footer %>
+                                        <% include partials/footer.ejs %>
