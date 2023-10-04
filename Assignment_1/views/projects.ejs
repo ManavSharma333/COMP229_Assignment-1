@@ -1,0 +1,153 @@
+<%- include header %>
+
+    <%- include main_nav %>
+
+        <main>
+
+            <div class="card text-center" style="background-color: #ffede6;">
+                <div class="card-header" style="background-color: #f9b699; font-size: larger; font-family:cursive;">
+                    <ul class="nav card-header-tabs">
+                        <li class="nav-item">
+                            <% if (title=="Projects_calculator" ) { %>
+                                <a class="nav-link active" style="color: #664131;" aria-current="page"
+                                    href="/projects/calculator"><b>Calculator</b></a>
+                                <% } else { %>
+                                    <a class="nav-link" style="color: #664131;" aria-current="page"
+                                        href="/projects/calculator"><b>Calculator</b></a>
+                                    <% } %>
+                        </li>
+
+                        <li class="nav-item">
+                            <% if (title=="projects_webPages" ) { %>
+                                <a class="nav-link active" style="color: #664131;" aria-current="page"
+                                    href="/projects/webPages"><b>Web Pages</b></a>
+                                <% } else { %> <a class="nav-link" style="color: #664131;" aria-current="page"
+                                        href="/projects/webPages">
+                                        <b>Web Pages</b></a>
+                                    <% } %>
+
+                        </li>
+
+                        <li class="nav-item">
+                            <% if (title=="real_estate" ) { %>
+                                <a class="nav-link active" style="color: #664131;" aria-current="page"
+                                    href="/projects/realEstate" tabindex="-1" aria-disabled="true"><b>Real
+                                        Estate</b></a>
+
+                                <% } else { %>
+                                    <a class="nav-link" href="/projects/realEstate" style="color: #664131;"
+                                        aria-current="page" tabindex="-1" aria-disabled="true"><b>Real Estate</b></a>
+                                    <% } %>
+                        </li>
+                    </ul>
+                </div>
+
+                <% if (title=="Projects_calculator" ) { %>
+                    <div class="card-body container-fluid w3-col s3 w3-center">
+                        <img class="mySlides" style="height:400px;width:max-content ;"
+                            src="/Assets/images/calculator-2.png" alt="calculator">
+                        <img class="mySlides" style="height: 400px;width:max-content ;"
+                            src="/Assets/images/calculator-3.png"alt="calculator">
+                    </div>
+                    <div class="card-body container-fluid w3-col s6 w3-center">
+                        <img class="mySlides" style="height:400px;width:max-content ;"
+                            src="/Assets/images/calculator-bh.gif"alt="calculator">
+                        <img class="mySlides" style="height: 400px;width:max-content ;"
+                            src="/Assets/images/calculator.gif"alt="calculator">
+                    </div>
+
+                    <div class="card-body container-fluid">
+                        <button class="w3-button" onclick="plusDivs(-1)">&#10094; Prev</button>
+                        <button class="w3-button" onclick="plusDivs(1)">Next &#10095;</button>
+                    </div>
+
+                    <div class="w3-brown w3-topbar w3-bottombar w3-border" style="text-align: left;">
+                        <h1><b><i><u>GUI - CALCULATOR</u></i></b></h1><br>
+                        <ul>
+                            <li>In this project, I created a calculator using the C# language (GUI). </li>
+                            <li>To improve it, I utilised several tools and functionalities.</li>
+                            <li> I also listed two possibilities for standard and scientific calculators. </li>
+                            <li>Furthermore, there is one unique option for dark mode, which makes
+                                my calculator more appealing.</li><br>
+                            <li>If you want to learn more about my calculator, here is a link to where you can find it
+                                on YouTube. &nbsp;&nbsp;
+                                <a href="https://youtu.be/WrQcNhSgc_M" target="_blank"><button type="button"
+                                        class="btn btn-secondary btn-md">&nbsp; Link &nbsp;</button></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <% } else if (title=="projects_webPages" ) { %>
+                        <div class="card-body container-fluid w3-col s6 w3-center">
+                            <img class="mySlides" style="height:400px;width:max-content ;"
+                                src="/Assets/images/webP1.png"alt="webPages">
+                            <img class="mySlides" style="height: 400px;width:max-content ;"
+                                src="/Assets/images/webP2.png"alt="webPages">
+                            <img class="mySlides" style="height:400px;width:max-content ;"
+                                src="/Assets/images/webP3.png"alt="webPages">
+                            <img class="mySlides" style="height: 400px;width:max-content ;"
+                                src="/Assets/images/webP4.png"alt="webPages">
+                            
+                        </div>
+
+
+                        <div class="card-body container-fluid">
+                            <button class="w3-button" onclick="plusDivs(-1)">&#10094; Prev</button>
+                            <button class="w3-button" onclick="plusDivs(1)">Next &#10095;</button>
+                        </div>
+
+                        <div class="w3-brown w3-topbar w3-bottombar w3-border" style="text-align: left;">
+                            <h1><b><i><u>Web Pages</u></i></b></h1><br>
+                            <ul>
+                                <li>I created many sorts of web sites for my homework in this project. </li>
+                                <li> To improve it, I used simple html and CSS.</li>
+                                <li> There are four distinct web sites with distinct material.</li>
+                            </ul>
+                        </div>
+
+                        <% } else if (title=="real_estate" ) { %>
+                            <div class="card-body container-fluid w3-col s6 w3-center">
+                                <img class="mySlides" style="height:400px;width:max-content ;"
+                                    src="/Assets/images/realE1.png"alt="realEstate">
+                                <img class="mySlides" style="height: 400px;width:max-content ;"
+                                    src="/Assets/images/realE2.png"alt="realEstate">
+                                <img class="mySlides" style="height:400px;width:max-content ;"
+                                    src="/Assets/images/realE3.png"alt="realEstate">
+                                <img class="mySlides" style="height: 400px;width:max-content ;"
+                                    src="/Assets/images/realE4.png"alt="realEstate">
+                                <img class="mySlides" style="height: 400px;width:max-content ;"
+                                    src="/Assets/images/realE5.png"alt="realEstate">
+                                <img class="mySlides" style="height: 400px;width:max-content ;"
+                                    src="/Assets/images/realE6.gif"alt="realEstate">
+                            </div>
+                            <div class="card-body container-fluid">
+                                <button class="w3-button" onclick="plusDivs(-1)">&#10094; Prev</button>
+                                <button class="w3-button" onclick="plusDivs(1)">Next &#10095;</button>
+                            </div>
+
+                            <div class="w3-brown w3-topbar w3-bottombar w3-border" style="text-align: left;">
+                                <h1><b><i><u>Real Estate (web page)</u></i></b></h1><br>
+                                <ul>
+                                    <li>Here's a real estate website where you may look for properties.</li>
+                                    <li>Here's a real estate website where you may look for properties.</li>
+                                    <li>Furthermore, under the last option, you may fill out a registration form or
+                                        contact us. </li>
+                                    <li>On the same page, there is also a section for our team members.</li>
+                                </ul>
+                            </div>
+
+                            <% } %>
+
+
+
+            </div>
+
+
+            </div>
+
+        </main>
+
+
+        <%- include bottom_nav %><br>
+
+            <%- include footer %>

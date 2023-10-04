@@ -1,0 +1,21 @@
+<%- include header %>
+
+    <%- include main_nav %>
+
+        <% if (title=='Mobile Apps' ) { %>
+
+            <%- include mobileApps %>
+
+                <% } else if (title=='Web Development' ){%>
+
+                    <%- include webDevelopment %>
+
+                        <% } else if (title=='Technical Support' ) { %>
+
+                            <%- include technicalsupport %>
+
+                                <% } %>
+
+                                    <%- include bottom_nav %><br>
+
+                                        <%- include footer %>

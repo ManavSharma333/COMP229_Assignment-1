@@ -1,0 +1,124 @@
+<body class="style02">
+    <header class="style01">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="/"><img alt="logo" src="/Assets/images/logo.png"
+              style="height: 70px; width: 70px" /></a>
+          <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" style="margin-left: 30px;" id="navbarSupportedContent">
+  
+            <ul class="navbar-nav nav-tabs me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+  
+                <% if(title=="Home" ){ %>
+                  <a class="nav-link active" style="color: #664131;" aria-current="page" href="/home">
+                    <% } else { %>
+                      <a class="nav-link " style="color: #664131;" aria-current="page" href="/home">
+                        <% } %>
+  
+                          <i class="fa fa-home"
+                            style="font-size:15px; margin-top: 5px;margin-left: 10px; color:#664131 ;"> &nbsp;</i>Home
+                      </a>
+              </li>
+              <li class="nav-item">
+                <% if(title=="About_me" ){ %>
+                  <a class="nav-link active" style="color: #664131;" href="/about">
+                    <% } else { %>
+                      <a class="nav-link" style="color: #664131;" href="/about">
+                        <% } %>
+  
+                          <i class="fa fa-info-circle"
+                            style="font-size:15px; margin-top: 5px;margin-left: 10px; color:#664131 ;"></i>&nbsp; About Me
+                      </a>
+              </li>
+              <li class="nav-item">
+                <% if(title=="Projects" || title =="Projects_calculator" || title == "projects_webPages" || title == "real_estate" ){ %>
+                  <a class="nav-link active" style="color: #664131;" href="/projects">
+                    <% } else { %>
+                      <a class="nav-link" style="color: #664131;" href="/projects">
+                        <% } %>
+  
+  
+                          <i class="fa fa-file"
+                            style="font-size:15px; margin-top: 5px;margin-left: 10px; color:#664131 ;"></i>&nbsp; Projects
+                      </a>
+              </li>
+              <li class="nav-item dropdown">
+  
+                <% if(title=="Mobile Apps" || title=="Web Development" || title=="Technical Support" ){ %>
+                  <a class="nav-link dropdown-toggle active" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false" style="color: #664131;">
+                    <% } else { %>
+                      <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" style="color: #664131;">
+                        <% } %>
+  
+  
+                          <i class="fa fa-gear"
+                            style="font-size:15px; margin-top: 5px;margin-left: 10px; color:#664131 ;"></i>&nbsp;
+                          Services
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li>
+                          <a class="dropdown-item" style="color: #664131;" href="/mobileApps">Mobile Apps</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" style="color: #664131;" href="/webDevelopment">Web Development</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" style="color: #664131;" href="/technicalSupport">Technical Support</a>
+                        </li>
+                      </ul>
+              </li>
+              <li class="nav-item">
+                <% if(title=="Contact Us" ){ %>
+                  <a class="nav-link active" style="color: #664131   ;" href="/contact">
+                    <% } else { %>
+                      <a class="nav-link" style="color: #664131   ;" href="/contact">
+                        <% } %>
+  
+  
+                          <i class="fa fa-phone"
+                            style="font-size:15px; margin-top: 5px;margin-left: 10px; color:#664131 ;"></i>&nbsp; Contact
+                          Us
+                      </a>
+              </li>
+            </ul>
+          </div>
+  
+          <form class="d-flex">
+            <table>
+              <tr>
+                <th colspan="4">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                </th>
+                <th>
+                  <button class="btn btn-outline-success" type="submit">
+                    Search
+                  </button>
+                </th>
+              </tr>
+  
+              <tr>
+                <td><a href="https://www.instagram.com/manav_3_3_3/" target="_blank"><i class="fa fa-instagram"
+                      style="font-size:20px; margin-top: 5px; margin-left: 10px; color:#664131 ;"></i>
+                  </a></td>
+                <td><a href="https://www.linkedin.com/in/manav-sharma-10733a261/"target="_blank"><i class="fa fa-linkedin-square"
+                      style="font-size:20px; margin-top: 5px;margin-left: 10px; color:#664131 ;"></i>
+                  </a></td>
+                <td><a href="callto:4374361545"target="_blank"><i class="fa fa-phone"
+                      style="font-size:20px; margin-top: 5px;margin-left: 10px; color:#664131 ;"></i>
+                  </a></td>
+                <td><a href="mailto:manav27504@gmail.com"target="_blank"><i class="fa fa-envelope"
+                      style="font-size:20px; margin-top: 5px;margin-left: 10px; color:#664131 ;"></i>
+                  </a></td>
+              </tr>
+            </table>
+          </form>
+        </div>
+        </div>
+      </nav>
+    </header>

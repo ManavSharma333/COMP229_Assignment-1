@@ -1,0 +1,46 @@
+/* CSS */
+.style01 {
+  background-color: #ffede6;
+  color: #664131;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+}
+
+.style02 {
+  background-color: #c59681;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+}
+
+.style03 {
+  text-decoration: none;
+  color: #ffede6;
+  font-size: large;
+}
+
+:hover.style03 {
+  color: #ad9c96;
+}
+
+.style04{
+    background-color: #E0B7A6;
+    margin-top: 10px;
+    color:#664131 ;
+}
+
+.style05 {
+  background-color: #f9b699;
+  color: #664131;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+}
+
+.style06{
+  background-color: #e0c1ad;
+  color: #4c3023;
+}
+
+:hover.style06{
+  background-color: #c59681;
+}
+
